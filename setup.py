@@ -3,15 +3,14 @@ from distutils.core import setup
 
 setup(
     name='fingerprint',
-    version='0.1.0',
+    version='0.1.2',
     url='http://github.com/kailashbuki/fingerprint',
     license='LICENSE.txt',
     author='Kailash Budhathoki',
     author_email='kailash.buki@gmail.com',
     description='Document fingerprint generator',
-    long_description=open('README').read(),
+    long_description=open('README.md').read(),
     packages=['fingerprint'],
-    zip_safe=False,
     platforms='any',
     classifiers=[
         'Development Status :: 4 - Beta',
